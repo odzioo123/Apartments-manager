@@ -1,9 +1,8 @@
 package Objects;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.Serializable;
 
-public class Apartment {
+public class Apartment implements Serializable {
     private int id;
     private int size;
     private int rooms;
@@ -27,6 +26,16 @@ public class Apartment {
     }
     public int getId() {
         return id;
+    }
+    public double getRent() {
+        return rent;
+    }
+    public int getRooms() {
+        return rooms;
+    }
+
+    public void setRent(double rent) {
+        this.rent = rent;
     }
 
     public void displayDetails() {

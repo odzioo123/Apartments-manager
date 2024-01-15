@@ -1,11 +1,14 @@
 package Objects;
 
-public class Renter {
+import java.io.Serializable;
+
+public class Renter implements Serializable {
     private int id;
     private String name;
     private String surname;
     private String contactInfo;
     public static int idToAdd = 0;
+
     public Renter(String name, String surname, String contactInfo) {
         this.id = idToAdd;
         idToAdd++;
@@ -13,7 +16,17 @@ public class Renter {
         this.surname = surname;
         this.contactInfo = contactInfo;
     }
+    public String getName() {
+        return name;
+    }
 
+    public String getSurname() {
+        return surname;
+    }
+
+    public static int getIdToAdd() {
+        return idToAdd;
+    }
     public String getContactInfo() {
         return contactInfo;
     }
@@ -24,6 +37,10 @@ public class Renter {
 
     public int getId() {
         return id;
+    }
+
+    public String getfullName() {
+        return surname + " " + name;
     }
     public void displayDetails() {
         System.out.println("Tenant ID: " + id);
