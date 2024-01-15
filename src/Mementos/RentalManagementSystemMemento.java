@@ -1,4 +1,4 @@
-package Mementos2;
+package Mementos;
 
 import Objects.Apartment;
 import Objects.RentContract;

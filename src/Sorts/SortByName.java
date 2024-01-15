@@ -1,5 +1,6 @@
-package Management;
+package Sorts;
 
+import Management.RentalManagementSystem;
 import Objects.Renter;
 import java.util.Comparator;
 

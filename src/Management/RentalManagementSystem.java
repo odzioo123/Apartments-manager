@@ -1,6 +1,6 @@
 package Management;
 
-import Mementos2.RentalManagementSystemMemento;
+import Mementos.RentalManagementSystemMemento;
 import Objects.Apartment;
 import Objects.ApartmentState;
 import Objects.RentContract;
