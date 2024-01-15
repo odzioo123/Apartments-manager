@@ -13,17 +13,6 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
 
-
-//        RentalManagementSystem rentalManagementSystem = new RentalManagementSystem();
-//        rentalManagementSystem.addApartment(20, 3, 20);
-//        rentalManagementSystem.addApartment(10, 1, 10);
-//        rentalManagementSystem.addRenter("Dawid", "Kaszkowicz", "123456789");
-//        rentalManagementSystem.createRentContract(1,1, "01.02", 5);
-//
-//        rentalManagementSystem.displayApartments();
-//        rentalManagementSystem.displayRenters();
-//        rentalManagementSystem.displayContracts();
-
         TerminalController terminal = TerminalController.getTerminalController();
 
         new AddApartmentCommand(terminal.getRms(), 20, 1, 300).execute();

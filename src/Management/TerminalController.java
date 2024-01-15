@@ -38,8 +38,8 @@ public class TerminalController {
             System.out.println("- sAR -   setAppartementRenovation");
             System.out.println("- sAA -   setApartmentAvailable");
             System.out.println("- sAC -   setApartmentCost");
-            System.out.println("- sortA - sort Renters");
-            System.out.println("- sortR - sort Apartments");
+            System.out.println("- sortA - sort Apartments");
+            System.out.println("- sortR - sort Renters");
             System.out.println("- save -  save to file");
             System.out.println("- load -  load from file and overwrite");
             System.out.println("- exit");
